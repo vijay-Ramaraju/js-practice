@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import MouseMove from './components/MouseMove'
+// import TrafficLight from './components/TrafficLight'
+import Parent from './components/Parent'
 
 function App() {
+  // console.log('ram')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MouseMove /> */}
+      {/* <TrafficLight /> */}
+      {/* ram */}
+      {/* <TemperatureConverter/> */}
+      <Parent />
     </div>
   );
 }
