@@ -1,7 +1,11 @@
 import "./App.css";
 // import MouseMove from './components/MouseMove'
 // import TrafficLight from './components/TrafficLight'
-import Parent from './components/Parent'
+// import Parent from './components/Parent'
+// import ReducerComp from './components/ReducerComp'
+// import ReducerComp from './components/ReducerComp'
+// import Custom from './components/Custom'
+import Debouncing from './components/Debouncing'
 
 function App() {
   // console.log('ram')
@@ -11,7 +15,10 @@ function App() {
       {/* <TrafficLight /> */}
       {/* ram */}
       {/* <TemperatureConverter/> */}
-      <Parent />
+      {/* <Parent /> */}
+      {/* <ReducerComp/> */}
+      {/* <Custom /> */}
+      <Debouncing />
     </div>
   );
 }
